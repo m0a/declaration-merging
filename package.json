@@ -1,0 +1,21 @@
+{
+  "name": "declaration-merging",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "^20.0.2",
+    "@types/node": "^8.0.13",
+    "@types/react": "^15.0.38",
+    "@types/react-dom": "^15.5.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "rxjs": "^5.4.2"
+  },
+  "devDependencies": {
+    "react-scripts-ts": "2.4.0"
+  },
+  "scripts": {
+    "pretest": "npm link hello-observable",
+    "test": "react-scripts-ts test --env=jsdom"
+  }
+}
