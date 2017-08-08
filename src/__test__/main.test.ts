@@ -1,6 +1,6 @@
 import { Observable } from 'rxjs/Observable';
 import 'rxjs';
-import './hello-observable';
+import 'hello-observable';
 
 describe('main test', () => {
     it('test 01', () => {
